@@ -1,0 +1,41 @@
+body {
+  background-color: peachpuff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  background-color: coral;
+  color: white;
+  padding: 15px;
+  margin: 20px 0;
+}
+
+h2 {
+  color: purple;
+  margin: 15px 0 5px 0;
+}
+
+p {
+  font-size: 18px;
+  width: 70%;
+  margin: 5px auto 20px auto;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: skyblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background-color: royalblue;
+}
